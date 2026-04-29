@@ -1,0 +1,1769 @@
+[
+  {
+    "text": "Overall dataset summary: Total Sales = $2,297,200.86, Total Profit = $286,397.02 (margin 12.5%), Total Quantity = 37,873, Average Discount = 1562.0%. Top performing Region: West. Top Category by Sales: Technology. Top Customer Segment: Consumer. Most used Ship Mode: Standard Class.",
+    "metadata": {
+      "granularity": "overall"
+    },
+    "chunk_id": "chunk_0000"
+  },
+  {
+    "text": "Region 'Central': Sales = $501,239.89, Profit = $39,706.36 (margin 7.9%), Quantity = 8,780, Avg Discount = 2403.5%, based on 2323 orders.",
+    "metadata": {
+      "Region": "Central",
+      "granularity": "region",
+      "sales_total": 501239.89,
+      "profit_total": 39706.36,
+      "quantity_total": 8780,
+      "avg_discount": 24.0353,
+      "row_count": 2323
+    },
+    "chunk_id": "chunk_0001"
+  },
+  {
+    "text": "Region 'East': Sales = $678,781.24, Profit = $91,522.78 (margin 13.5%), Quantity = 10,618, Avg Discount = 1453.7%, based on 2848 orders.",
+    "metadata": {
+      "Region": "East",
+      "granularity": "region",
+      "sales_total": 678781.24,
+      "profit_total": 91522.78,
+      "quantity_total": 10618,
+      "avg_discount": 14.5365,
+      "row_count": 2848
+    },
+    "chunk_id": "chunk_0002"
+  },
+  {
+    "text": "Region 'South': Sales = $391,721.91, Profit = $46,749.43 (margin 11.9%), Quantity = 6,209, Avg Discount = 1472.5%, based on 1620 orders.",
+    "metadata": {
+      "Region": "South",
+      "granularity": "region",
+      "sales_total": 391721.91,
+      "profit_total": 46749.43,
+      "quantity_total": 6209,
+      "avg_discount": 14.7253,
+      "row_count": 1620
+    },
+    "chunk_id": "chunk_0003"
+  },
+  {
+    "text": "Region 'West': Sales = $725,457.82, Profit = $108,418.45 (margin 14.9%), Quantity = 12,266, Avg Discount = 1093.3%, based on 3203 orders.",
+    "metadata": {
+      "Region": "West",
+      "granularity": "region",
+      "sales_total": 725457.82,
+      "profit_total": 108418.45,
+      "quantity_total": 12266,
+      "avg_discount": 10.9335,
+      "row_count": 3203
+    },
+    "chunk_id": "chunk_0004"
+  },
+  {
+    "text": "Category 'Furniture': Sales = $741,999.80, Profit = $18,451.27 (margin 2.5%), Quantity = 8,028, Avg Discount = 1739.2%.",
+    "metadata": {
+      "Category": "Furniture",
+      "granularity": "category",
+      "sales_total": 741999.8,
+      "profit_total": 18451.27,
+      "quantity_total": 8028,
+      "avg_discount": 17.3923,
+      "row_count": 2121
+    },
+    "chunk_id": "chunk_0005"
+  },
+  {
+    "text": "Category 'Office Supplies': Sales = $719,047.03, Profit = $122,490.80 (margin 17.0%), Quantity = 22,906, Avg Discount = 1572.9%.",
+    "metadata": {
+      "Category": "Office Supplies",
+      "granularity": "category",
+      "sales_total": 719047.03,
+      "profit_total": 122490.8,
+      "quantity_total": 22906,
+      "avg_discount": 15.7285,
+      "row_count": 6026
+    },
+    "chunk_id": "chunk_0006"
+  },
+  {
+    "text": "Category 'Technology': Sales = $836,154.03, Profit = $145,454.95 (margin 17.4%), Quantity = 6,939, Avg Discount = 1323.2%.",
+    "metadata": {
+      "Category": "Technology",
+      "granularity": "category",
+      "sales_total": 836154.03,
+      "profit_total": 145454.95,
+      "quantity_total": 6939,
+      "avg_discount": 13.2323,
+      "row_count": 1847
+    },
+    "chunk_id": "chunk_0007"
+  },
+  {
+    "text": "Customer Segment 'Consumer': Sales = $1,161,401.34, Profit = $134,119.21, Quantity = 19,521, Avg Discount = 1581.4%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "granularity": "segment",
+      "sales_total": 1161401.34,
+      "profit_total": 134119.21,
+      "quantity_total": 19521,
+      "avg_discount": 15.8141,
+      "row_count": 5191
+    },
+    "chunk_id": "chunk_0008"
+  },
+  {
+    "text": "Customer Segment 'Corporate': Sales = $706,146.37, Profit = $91,979.13, Quantity = 11,608, Avg Discount = 1582.3%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "granularity": "segment",
+      "sales_total": 706146.37,
+      "profit_total": 91979.13,
+      "quantity_total": 11608,
+      "avg_discount": 15.8228,
+      "row_count": 3020
+    },
+    "chunk_id": "chunk_0009"
+  },
+  {
+    "text": "Customer Segment 'Home Office': Sales = $429,653.15, Profit = $60,298.68, Quantity = 6,744, Avg Discount = 1471.3%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "granularity": "segment",
+      "sales_total": 429653.15,
+      "profit_total": 60298.68,
+      "quantity_total": 6744,
+      "avg_discount": 14.7128,
+      "row_count": 1783
+    },
+    "chunk_id": "chunk_0010"
+  },
+  {
+    "text": "Ship Mode 'First Class': Sales = $351,428.42, Profit = $48,969.84, Quantity = 5,693, number of orders = 1538.",
+    "metadata": {
+      "Ship Mode": "First Class",
+      "granularity": "ship_mode",
+      "sales_total": 351428.42,
+      "profit_total": 48969.84,
+      "quantity_total": 5693,
+      "avg_discount": 16.461,
+      "row_count": 1538
+    },
+    "chunk_id": "chunk_0011"
+  },
+  {
+    "text": "Ship Mode 'Same Day': Sales = $128,363.12, Profit = $15,891.76, Quantity = 1,960, number of orders = 543.",
+    "metadata": {
+      "Ship Mode": "Same Day",
+      "granularity": "ship_mode",
+      "sales_total": 128363.12,
+      "profit_total": 15891.76,
+      "quantity_total": 1960,
+      "avg_discount": 15.2394,
+      "row_count": 543
+    },
+    "chunk_id": "chunk_0012"
+  },
+  {
+    "text": "Ship Mode 'Second Class': Sales = $459,193.57, Profit = $57,446.64, Quantity = 7,423, number of orders = 1945.",
+    "metadata": {
+      "Ship Mode": "Second Class",
+      "granularity": "ship_mode",
+      "sales_total": 459193.57,
+      "profit_total": 57446.64,
+      "quantity_total": 7423,
+      "avg_discount": 13.8895,
+      "row_count": 1945
+    },
+    "chunk_id": "chunk_0013"
+  },
+  {
+    "text": "Ship Mode 'Standard Class': Sales = $1,358,215.74, Profit = $164,088.79, Quantity = 22,797, number of orders = 5968.",
+    "metadata": {
+      "Ship Mode": "Standard Class",
+      "granularity": "ship_mode",
+      "sales_total": 1358215.74,
+      "profit_total": 164088.79,
+      "quantity_total": 22797,
+      "avg_discount": 16.0023,
+      "row_count": 5968
+    },
+    "chunk_id": "chunk_0014"
+  },
+  {
+    "text": "In the Central region, Category 'Furniture': Sales = $163,797.16, Profit = $-2,871.05 (margin -1.8%), Quantity = 1,827, Avg Discount = 2973.8%.",
+    "metadata": {
+      "Region": "Central",
+      "Category": "Furniture",
+      "granularity": "region_category",
+      "sales_total": 163797.16,
+      "profit_total": -2871.05,
+      "quantity_total": 1827,
+      "avg_discount": 29.738,
+      "row_count": 481
+    },
+    "chunk_id": "chunk_0015"
+  },
+  {
+    "text": "In the Central region, Category 'Office Supplies': Sales = $167,026.42, Profit = $8,879.98 (margin 5.3%), Quantity = 5,409, Avg Discount = 2527.4%.",
+    "metadata": {
+      "Region": "Central",
+      "Category": "Office Supplies",
+      "granularity": "region_category",
+      "sales_total": 167026.42,
+      "profit_total": 8879.98,
+      "quantity_total": 5409,
+      "avg_discount": 25.2743,
+      "row_count": 1422
+    },
+    "chunk_id": "chunk_0016"
+  },
+  {
+    "text": "In the Central region, Category 'Technology': Sales = $170,416.31, Profit = $33,697.43 (margin 19.8%), Quantity = 1,544, Avg Discount = 1331.0%.",
+    "metadata": {
+      "Region": "Central",
+      "Category": "Technology",
+      "granularity": "region_category",
+      "sales_total": 170416.31,
+      "profit_total": 33697.43,
+      "quantity_total": 1544,
+      "avg_discount": 13.3095,
+      "row_count": 420
+    },
+    "chunk_id": "chunk_0017"
+  },
+  {
+    "text": "In the East region, Category 'Furniture': Sales = $208,291.20, Profit = $3,046.17 (margin 1.5%), Quantity = 2,214, Avg Discount = 1540.8%.",
+    "metadata": {
+      "Region": "East",
+      "Category": "Furniture",
+      "granularity": "region_category",
+      "sales_total": 208291.2,
+      "profit_total": 3046.17,
+      "quantity_total": 2214,
+      "avg_discount": 15.4077,
+      "row_count": 601
+    },
+    "chunk_id": "chunk_0018"
+  },
+  {
+    "text": "In the East region, Category 'Office Supplies': Sales = $205,516.05, Profit = $41,014.58 (margin 20.0%), Quantity = 6,462, Avg Discount = 1429.3%.",
+    "metadata": {
+      "Region": "East",
+      "Category": "Office Supplies",
+      "granularity": "region_category",
+      "sales_total": 205516.05,
+      "profit_total": 41014.58,
+      "quantity_total": 6462,
+      "avg_discount": 14.2932,
+      "row_count": 1712
+    },
+    "chunk_id": "chunk_0019"
+  },
+  {
+    "text": "In the East region, Category 'Technology': Sales = $264,973.98, Profit = $47,462.04 (margin 17.9%), Quantity = 1,942, Avg Discount = 1433.6%.",
+    "metadata": {
+      "Region": "East",
+      "Category": "Technology",
+      "granularity": "region_category",
+      "sales_total": 264973.98,
+      "profit_total": 47462.04,
+      "quantity_total": 1942,
+      "avg_discount": 14.3364,
+      "row_count": 535
+    },
+    "chunk_id": "chunk_0020"
+  },
+  {
+    "text": "In the South region, Category 'Furniture': Sales = $117,298.68, Profit = $6,771.21 (margin 5.8%), Quantity = 1,291, Avg Discount = 1215.4%.",
+    "metadata": {
+      "Region": "South",
+      "Category": "Furniture",
+      "granularity": "region_category",
+      "sales_total": 117298.68,
+      "profit_total": 6771.21,
+      "quantity_total": 1291,
+      "avg_discount": 12.1536,
+      "row_count": 332
+    },
+    "chunk_id": "chunk_0021"
+  },
+  {
+    "text": "In the South region, Category 'Office Supplies': Sales = $125,651.31, Profit = $19,986.39 (margin 15.9%), Quantity = 3,800, Avg Discount = 1674.4%.",
+    "metadata": {
+      "Region": "South",
+      "Category": "Office Supplies",
+      "granularity": "region_category",
+      "sales_total": 125651.31,
+      "profit_total": 19986.39,
+      "quantity_total": 3800,
+      "avg_discount": 16.7437,
+      "row_count": 995
+    },
+    "chunk_id": "chunk_0022"
+  },
+  {
+    "text": "In the South region, Category 'Technology': Sales = $148,771.91, Profit = $19,991.83 (margin 13.4%), Quantity = 1,118, Avg Discount = 1078.5%.",
+    "metadata": {
+      "Region": "South",
+      "Category": "Technology",
+      "granularity": "region_category",
+      "sales_total": 148771.91,
+      "profit_total": 19991.83,
+      "quantity_total": 1118,
+      "avg_discount": 10.785,
+      "row_count": 293
+    },
+    "chunk_id": "chunk_0023"
+  },
+  {
+    "text": "In the West region, Category 'Furniture': Sales = $252,612.74, Profit = $11,504.95 (margin 4.6%), Quantity = 2,696, Avg Discount = 1314.0%.",
+    "metadata": {
+      "Region": "West",
+      "Category": "Furniture",
+      "granularity": "region_category",
+      "sales_total": 252612.74,
+      "profit_total": 11504.95,
+      "quantity_total": 2696,
+      "avg_discount": 13.14,
+      "row_count": 707
+    },
+    "chunk_id": "chunk_0024"
+  },
+  {
+    "text": "In the West region, Category 'Office Supplies': Sales = $220,853.25, Profit = $52,609.85 (margin 23.8%), Quantity = 7,235, Avg Discount = 933.6%.",
+    "metadata": {
+      "Region": "West",
+      "Category": "Office Supplies",
+      "granularity": "region_category",
+      "sales_total": 220853.25,
+      "profit_total": 52609.85,
+      "quantity_total": 7235,
+      "avg_discount": 9.3358,
+      "row_count": 1897
+    },
+    "chunk_id": "chunk_0025"
+  },
+  {
+    "text": "In the West region, Category 'Technology': Sales = $251,991.83, Profit = $44,303.65 (margin 17.6%), Quantity = 2,335, Avg Discount = 1338.9%.",
+    "metadata": {
+      "Region": "West",
+      "Category": "Technology",
+      "granularity": "region_category",
+      "sales_total": 251991.83,
+      "profit_total": 44303.65,
+      "quantity_total": 2335,
+      "avg_discount": 13.389,
+      "row_count": 599
+    },
+    "chunk_id": "chunk_0026"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Accessories': Sales = $87,105.24, Profit = $20,735.92, Quantity = 1,578, Avg Discount = 857.8%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Accessories",
+      "granularity": "segment_subcategory",
+      "sales_total": 87105.24,
+      "profit_total": 20735.92,
+      "quantity_total": 1578,
+      "avg_discount": 8.5784,
+      "row_count": 408
+    },
+    "chunk_id": "chunk_0027"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Appliances': Sales = $52,819.58, Profit = $6,981.93, Quantity = 908, Avg Discount = 1811.5%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Appliances",
+      "granularity": "segment_subcategory",
+      "sales_total": 52819.58,
+      "profit_total": 6981.93,
+      "quantity_total": 908,
+      "avg_discount": 18.1148,
+      "row_count": 244
+    },
+    "chunk_id": "chunk_0028"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Art': Sales = $14,251.93, Profit = $3,454.30, Quantity = 1,625, Avg Discount = 789.7%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Art",
+      "granularity": "segment_subcategory",
+      "sales_total": 14251.93,
+      "profit_total": 3454.3,
+      "quantity_total": 1625,
+      "avg_discount": 7.8972,
+      "row_count": 428
+    },
+    "chunk_id": "chunk_0029"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Binders': Sales = $118,161.01, Profit = $17,995.60, Quantity = 3,015, Avg Discount = 3774.4%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Binders",
+      "granularity": "segment_subcategory",
+      "sales_total": 118161.01,
+      "profit_total": 17995.6,
+      "quantity_total": 3015,
+      "avg_discount": 37.7436,
+      "row_count": 780
+    },
+    "chunk_id": "chunk_0030"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Bookcases': Sales = $68,632.73, Profit = $-4,435.64, Quantity = 496, Avg Discount = 2214.5%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Bookcases",
+      "granularity": "segment_subcategory",
+      "sales_total": 68632.73,
+      "profit_total": -4435.64,
+      "quantity_total": 496,
+      "avg_discount": 22.145,
+      "row_count": 131
+    },
+    "chunk_id": "chunk_0031"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Chairs': Sales = $172,862.74, Profit = $13,235.33, Quantity = 1,234, Avg Discount = 1708.2%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Chairs",
+      "granularity": "segment_subcategory",
+      "sales_total": 172862.74,
+      "profit_total": 13235.33,
+      "quantity_total": 1234,
+      "avg_discount": 17.0821,
+      "row_count": 329
+    },
+    "chunk_id": "chunk_0032"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Copiers': Sales = $69,819.07, Profit = $24,083.71, Quantity = 117, Avg Discount = 1942.9%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Copiers",
+      "granularity": "segment_subcategory",
+      "sales_total": 69819.07,
+      "profit_total": 24083.71,
+      "quantity_total": 117,
+      "avg_discount": 19.4286,
+      "row_count": 35
+    },
+    "chunk_id": "chunk_0033"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Envelopes': Sales = $7,771.15, Profit = $3,264.41, Quantity = 442, Avg Discount = 868.2%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Envelopes",
+      "granularity": "segment_subcategory",
+      "sales_total": 7771.15,
+      "profit_total": 3264.41,
+      "quantity_total": 442,
+      "avg_discount": 8.6822,
+      "row_count": 129
+    },
+    "chunk_id": "chunk_0034"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Fasteners': Sales = $1,680.94, Profit = $576.80, Quantity = 473, Avg Discount = 666.7%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Fasteners",
+      "granularity": "segment_subcategory",
+      "sales_total": 1680.94,
+      "profit_total": 576.8,
+      "quantity_total": 473,
+      "avg_discount": 6.6667,
+      "row_count": 114
+    },
+    "chunk_id": "chunk_0035"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Furnishings': Sales = $49,620.05, Profit = $7,919.42, Quantity = 1,834, Avg Discount = 1400.8%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Furnishings",
+      "granularity": "segment_subcategory",
+      "sales_total": 49620.05,
+      "profit_total": 7919.42,
+      "quantity_total": 1834,
+      "avg_discount": 14.0081,
+      "row_count": 494
+    },
+    "chunk_id": "chunk_0036"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Labels': Sales = $6,709.26, Profit = $3,075.99, Quantity = 715, Avg Discount = 560.8%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Labels",
+      "granularity": "segment_subcategory",
+      "sales_total": 6709.26,
+      "profit_total": 3075.99,
+      "quantity_total": 715,
+      "avg_discount": 5.6085,
+      "row_count": 189
+    },
+    "chunk_id": "chunk_0037"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Machines': Sales = $79,542.82, Profit = $2,141.06, Quantity = 217, Avg Discount = 2947.4%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Machines",
+      "granularity": "segment_subcategory",
+      "sales_total": 79542.82,
+      "profit_total": 2141.06,
+      "quantity_total": 217,
+      "avg_discount": 29.4737,
+      "row_count": 57
+    },
+    "chunk_id": "chunk_0038"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Paper': Sales = $36,324.37, Profit = $15,534.64, Quantity = 2,602, Avg Discount = 735.9%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Paper",
+      "granularity": "segment_subcategory",
+      "sales_total": 36324.37,
+      "profit_total": 15534.64,
+      "quantity_total": 2602,
+      "avg_discount": 7.3593,
+      "row_count": 693
+    },
+    "chunk_id": "chunk_0039"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Phones': Sales = $169,932.76, Profit = $23,837.11, Quantity = 1,685, Avg Discount = 1534.4%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Phones",
+      "granularity": "segment_subcategory",
+      "sales_total": 169932.76,
+      "profit_total": 23837.11,
+      "quantity_total": 1685,
+      "avg_discount": 15.3437,
+      "row_count": 451
+    },
+    "chunk_id": "chunk_0040"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Storage': Sales = $100,492.40, Profit = $7,104.20, Quantity = 1,619, Avg Discount = 768.9%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Storage",
+      "granularity": "segment_subcategory",
+      "sales_total": 100492.4,
+      "profit_total": 7104.2,
+      "quantity_total": 1619,
+      "avg_discount": 7.6889,
+      "row_count": 450
+    },
+    "chunk_id": "chunk_0041"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Supplies': Sales = $25,741.50, Profit = $-1,657.55, Quantity = 359, Avg Discount = 900.0%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Supplies",
+      "granularity": "segment_subcategory",
+      "sales_total": 25741.5,
+      "profit_total": -1657.55,
+      "quantity_total": 359,
+      "avg_discount": 9.0,
+      "row_count": 100
+    },
+    "chunk_id": "chunk_0042"
+  },
+  {
+    "text": "Customer Segment 'Consumer', Sub-Category 'Tables': Sales = $99,933.79, Profit = $-9,728.04, Quantity = 602, Avg Discount = 2660.4%.",
+    "metadata": {
+      "Segment": "Consumer",
+      "Sub-Category": "Tables",
+      "granularity": "segment_subcategory",
+      "sales_total": 99933.79,
+      "profit_total": -9728.04,
+      "quantity_total": 602,
+      "avg_discount": 26.6038,
+      "row_count": 159
+    },
+    "chunk_id": "chunk_0043"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Accessories': Sales = $48,190.56, Profit = $12,707.48, Quantity = 881, Avg Discount = 660.8%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Accessories",
+      "granularity": "segment_subcategory",
+      "sales_total": 48190.56,
+      "profit_total": 12707.48,
+      "quantity_total": 881,
+      "avg_discount": 6.6079,
+      "row_count": 227
+    },
+    "chunk_id": "chunk_0044"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Appliances': Sales = $36,588.68, Profit = $7,429.90, Quantity = 569, Avg Discount = 1593.5%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Appliances",
+      "granularity": "segment_subcategory",
+      "sales_total": 36588.68,
+      "profit_total": 7429.9,
+      "quantity_total": 569,
+      "avg_discount": 15.9355,
+      "row_count": 155
+    },
+    "chunk_id": "chunk_0045"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Art': Sales = $8,590.45, Profit = $2,004.65, Quantity = 850, Avg Discount = 715.6%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Art",
+      "granularity": "segment_subcategory",
+      "sales_total": 8590.45,
+      "profit_total": 2004.65,
+      "quantity_total": 850,
+      "avg_discount": 7.156,
+      "row_count": 218
+    },
+    "chunk_id": "chunk_0046"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Binders': Sales = $51,560.31, Profit = $6,377.32, Quantity = 1,848, Avg Discount = 3699.8%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Binders",
+      "granularity": "segment_subcategory",
+      "sales_total": 51560.31,
+      "profit_total": 6377.32,
+      "quantity_total": 1848,
+      "avg_discount": 36.9979,
+      "row_count": 473
+    },
+    "chunk_id": "chunk_0047"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Bookcases': Sales = $34,005.92, Profit = $638.45, Quantity = 271, Avg Discount = 2187.5%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Bookcases",
+      "granularity": "segment_subcategory",
+      "sales_total": 34005.92,
+      "profit_total": 638.45,
+      "quantity_total": 271,
+      "avg_discount": 21.875,
+      "row_count": 64
+    },
+    "chunk_id": "chunk_0048"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Chairs': Sales = $99,140.88, Profit = $8,344.66, Quantity = 719, Avg Discount = 1675.5%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Chairs",
+      "granularity": "segment_subcategory",
+      "sales_total": 99140.88,
+      "profit_total": 8344.66,
+      "quantity_total": 719,
+      "avg_discount": 16.7553,
+      "row_count": 188
+    },
+    "chunk_id": "chunk_0049"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Copiers': Sales = $46,829.39, Profit = $18,990.28, Quantity = 70, Avg Discount = 1500.0%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Copiers",
+      "granularity": "segment_subcategory",
+      "sales_total": 46829.39,
+      "profit_total": 18990.28,
+      "quantity_total": 70,
+      "avg_discount": 15.0,
+      "row_count": 20
+    },
+    "chunk_id": "chunk_0050"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Envelopes': Sales = $5,942.67, Profit = $2,571.23, Quantity = 323, Avg Discount = 690.5%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Envelopes",
+      "granularity": "segment_subcategory",
+      "sales_total": 5942.67,
+      "profit_total": 2571.23,
+      "quantity_total": 323,
+      "avg_discount": 6.9048,
+      "row_count": 84
+    },
+    "chunk_id": "chunk_0051"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Fasteners': Sales = $783.29, Profit = $251.90, Quantity = 273, Avg Discount = 1220.3%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Fasteners",
+      "granularity": "segment_subcategory",
+      "sales_total": 783.29,
+      "profit_total": 251.9,
+      "quantity_total": 273,
+      "avg_discount": 12.2034,
+      "row_count": 59
+    },
+    "chunk_id": "chunk_0052"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Furnishings': Sales = $25,001.27, Profit = $3,508.21, Quantity = 1,086, Avg Discount = 1368.1%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Furnishings",
+      "granularity": "segment_subcategory",
+      "sales_total": 25001.27,
+      "profit_total": 3508.21,
+      "quantity_total": 1086,
+      "avg_discount": 13.6806,
+      "row_count": 288
+    },
+    "chunk_id": "chunk_0053"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Labels': Sales = $4,101.65, Profit = $1,760.83, Quantity = 398, Avg Discount = 823.5%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Labels",
+      "granularity": "segment_subcategory",
+      "sales_total": 4101.65,
+      "profit_total": 1760.83,
+      "quantity_total": 398,
+      "avg_discount": 8.2353,
+      "row_count": 102
+    },
+    "chunk_id": "chunk_0054"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Machines': Sales = $60,276.76, Profit = $703.02, Quantity = 141, Avg Discount = 3457.1%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Machines",
+      "granularity": "segment_subcategory",
+      "sales_total": 60276.76,
+      "profit_total": 703.02,
+      "quantity_total": 141,
+      "avg_discount": 34.5714,
+      "row_count": 35
+    },
+    "chunk_id": "chunk_0055"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Paper': Sales = $23,883.13, Profit = $10,361.55, Quantity = 1,555, Avg Discount = 794.1%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Paper",
+      "granularity": "segment_subcategory",
+      "sales_total": 23883.13,
+      "profit_total": 10361.55,
+      "quantity_total": 1555,
+      "avg_discount": 7.9412,
+      "row_count": 408
+    },
+    "chunk_id": "chunk_0056"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Phones': Sales = $91,153.41, Profit = $11,766.22, Quantity = 1,003, Avg Discount = 1580.9%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Phones",
+      "granularity": "segment_subcategory",
+      "sales_total": 91153.41,
+      "profit_total": 11766.22,
+      "quantity_total": 1003,
+      "avg_discount": 15.8088,
+      "row_count": 272
+    },
+    "chunk_id": "chunk_0057"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Storage': Sales = $79,791.00, Profit = $9,131.02, Quantity = 1,000, Avg Discount = 746.2%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Storage",
+      "granularity": "segment_subcategory",
+      "sales_total": 79791.0,
+      "profit_total": 9131.02,
+      "quantity_total": 1000,
+      "avg_discount": 7.4615,
+      "row_count": 260
+    },
+    "chunk_id": "chunk_0058"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Supplies': Sales = $19,435.28, Profit = $338.93, Quantity = 202, Avg Discount = 623.0%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Supplies",
+      "granularity": "segment_subcategory",
+      "sales_total": 19435.28,
+      "profit_total": 338.93,
+      "quantity_total": 202,
+      "avg_discount": 6.2295,
+      "row_count": 61
+    },
+    "chunk_id": "chunk_0059"
+  },
+  {
+    "text": "Customer Segment 'Corporate', Sub-Category 'Tables': Sales = $70,871.72, Profit = $-4,906.50, Quantity = 419, Avg Discount = 2599.1%.",
+    "metadata": {
+      "Segment": "Corporate",
+      "Sub-Category": "Tables",
+      "granularity": "segment_subcategory",
+      "sales_total": 70871.72,
+      "profit_total": -4906.5,
+      "quantity_total": 419,
+      "avg_discount": 25.9906,
+      "row_count": 106
+    },
+    "chunk_id": "chunk_0060"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Accessories': Sales = $32,084.52, Profit = $8,493.23, Quantity = 517, Avg Discount = 771.4%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Accessories",
+      "granularity": "segment_subcategory",
+      "sales_total": 32084.52,
+      "profit_total": 8493.23,
+      "quantity_total": 517,
+      "avg_discount": 7.7143,
+      "row_count": 140
+    },
+    "chunk_id": "chunk_0061"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Appliances': Sales = $18,123.90, Profit = $3,726.18, Quantity = 252, Avg Discount = 1298.5%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Appliances",
+      "granularity": "segment_subcategory",
+      "sales_total": 18123.9,
+      "profit_total": 3726.18,
+      "quantity_total": 252,
+      "avg_discount": 12.9851,
+      "row_count": 67
+    },
+    "chunk_id": "chunk_0062"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Art': Sales = $4,276.41, Profit = $1,068.84, Quantity = 525, Avg Discount = 680.0%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Art",
+      "granularity": "segment_subcategory",
+      "sales_total": 4276.41,
+      "profit_total": 1068.84,
+      "quantity_total": 525,
+      "avg_discount": 6.8,
+      "row_count": 150
+    },
+    "chunk_id": "chunk_0063"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Binders': Sales = $33,691.41, Profit = $5,848.85, Quantity = 1,111, Avg Discount = 3614.8%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Binders",
+      "granularity": "segment_subcategory",
+      "sales_total": 33691.41,
+      "profit_total": 5848.85,
+      "quantity_total": 1111,
+      "avg_discount": 36.1481,
+      "row_count": 270
+    },
+    "chunk_id": "chunk_0064"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Bookcases': Sales = $12,241.34, Profit = $324.63, Quantity = 101, Avg Discount = 1554.5%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Bookcases",
+      "granularity": "segment_subcategory",
+      "sales_total": 12241.34,
+      "profit_total": 324.63,
+      "quantity_total": 101,
+      "avg_discount": 15.5455,
+      "row_count": 33
+    },
+    "chunk_id": "chunk_0065"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Chairs': Sales = $56,445.48, Profit = $5,010.18, Quantity = 403, Avg Discount = 1730.0%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Chairs",
+      "granularity": "segment_subcategory",
+      "sales_total": 56445.48,
+      "profit_total": 5010.18,
+      "quantity_total": 403,
+      "avg_discount": 17.3,
+      "row_count": 100
+    },
+    "chunk_id": "chunk_0066"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Copiers': Sales = $32,879.57, Profit = $12,543.84, Quantity = 47, Avg Discount = 923.1%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Copiers",
+      "granularity": "segment_subcategory",
+      "sales_total": 32879.57,
+      "profit_total": 12543.84,
+      "quantity_total": 47,
+      "avg_discount": 9.2308,
+      "row_count": 13
+    },
+    "chunk_id": "chunk_0067"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Envelopes': Sales = $2,762.59, Profit = $1,128.54, Quantity = 141, Avg Discount = 829.3%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Envelopes",
+      "granularity": "segment_subcategory",
+      "sales_total": 2762.59,
+      "profit_total": 1128.54,
+      "quantity_total": 141,
+      "avg_discount": 8.2927,
+      "row_count": 41
+    },
+    "chunk_id": "chunk_0068"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Fasteners': Sales = $560.05, Profit = $120.81, Quantity = 168, Avg Discount = 681.8%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Fasteners",
+      "granularity": "segment_subcategory",
+      "sales_total": 560.05,
+      "profit_total": 120.81,
+      "quantity_total": 168,
+      "avg_discount": 6.8182,
+      "row_count": 44
+    },
+    "chunk_id": "chunk_0069"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Furnishings': Sales = $17,083.85, Profit = $1,631.51, Quantity = 643, Avg Discount = 1360.0%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Furnishings",
+      "granularity": "segment_subcategory",
+      "sales_total": 17083.85,
+      "profit_total": 1631.51,
+      "quantity_total": 643,
+      "avg_discount": 13.6,
+      "row_count": 175
+    },
+    "chunk_id": "chunk_0070"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Labels': Sales = $1,675.40, Profit = $709.44, Quantity = 287, Avg Discount = 821.9%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Labels",
+      "granularity": "segment_subcategory",
+      "sales_total": 1675.4,
+      "profit_total": 709.44,
+      "quantity_total": 287,
+      "avg_discount": 8.2192,
+      "row_count": 73
+    },
+    "chunk_id": "chunk_0071"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Machines': Sales = $49,419.05, Profit = $540.68, Quantity = 82, Avg Discount = 2739.1%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Machines",
+      "granularity": "segment_subcategory",
+      "sales_total": 49419.05,
+      "profit_total": 540.68,
+      "quantity_total": 82,
+      "avg_discount": 27.3913,
+      "row_count": 23
+    },
+    "chunk_id": "chunk_0072"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Paper': Sales = $18,271.71, Profit = $8,157.38, Quantity = 1,021, Avg Discount = 713.8%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Paper",
+      "granularity": "segment_subcategory",
+      "sales_total": 18271.71,
+      "profit_total": 8157.38,
+      "quantity_total": 1021,
+      "avg_discount": 7.1375,
+      "row_count": 269
+    },
+    "chunk_id": "chunk_0073"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Phones': Sales = $68,920.88, Profit = $8,912.40, Quantity = 601, Avg Discount = 1518.1%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Phones",
+      "granularity": "segment_subcategory",
+      "sales_total": 68920.88,
+      "profit_total": 8912.4,
+      "quantity_total": 601,
+      "avg_discount": 15.1807,
+      "row_count": 166
+    },
+    "chunk_id": "chunk_0074"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Storage': Sales = $43,560.21, Profit = $5,043.60, Quantity = 539, Avg Discount = 676.5%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Storage",
+      "granularity": "segment_subcategory",
+      "sales_total": 43560.21,
+      "profit_total": 5043.6,
+      "quantity_total": 539,
+      "avg_discount": 6.7647,
+      "row_count": 136
+    },
+    "chunk_id": "chunk_0075"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Supplies': Sales = $1,496.76, Profit = $129.53, Quantity = 86, Avg Discount = 620.7%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Supplies",
+      "granularity": "segment_subcategory",
+      "sales_total": 1496.76,
+      "profit_total": 129.53,
+      "quantity_total": 86,
+      "avg_discount": 6.2069,
+      "row_count": 29
+    },
+    "chunk_id": "chunk_0076"
+  },
+  {
+    "text": "Customer Segment 'Home Office', Sub-Category 'Tables': Sales = $36,160.02, Profit = $-3,090.94, Quantity = 220, Avg Discount = 2500.0%.",
+    "metadata": {
+      "Segment": "Home Office",
+      "Sub-Category": "Tables",
+      "granularity": "segment_subcategory",
+      "sales_total": 36160.02,
+      "profit_total": -3090.94,
+      "quantity_total": 220,
+      "avg_discount": 25.0,
+      "row_count": 54
+    },
+    "chunk_id": "chunk_0077"
+  },
+  {
+    "text": "State 'Alabama' (Region: South): Sales = $19,510.64, Profit = $5,786.83 (margin 29.7%), Quantity = 256.",
+    "metadata": {
+      "State": "Alabama",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 19510.64,
+      "profit_total": 5786.83,
+      "quantity_total": 256,
+      "avg_discount": 0.0,
+      "row_count": 61
+    },
+    "chunk_id": "chunk_0078"
+  },
+  {
+    "text": "State 'Arizona' (Region: West): Sales = $35,282.00, Profit = $-3,427.92 (margin -9.7%), Quantity = 862.",
+    "metadata": {
+      "State": "Arizona",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 35282.0,
+      "profit_total": -3427.92,
+      "quantity_total": 862,
+      "avg_discount": 30.3571,
+      "row_count": 224
+    },
+    "chunk_id": "chunk_0079"
+  },
+  {
+    "text": "State 'Arkansas' (Region: South): Sales = $11,678.13, Profit = $4,008.69 (margin 34.3%), Quantity = 240.",
+    "metadata": {
+      "State": "Arkansas",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 11678.13,
+      "profit_total": 4008.69,
+      "quantity_total": 240,
+      "avg_discount": 0.0,
+      "row_count": 60
+    },
+    "chunk_id": "chunk_0080"
+  },
+  {
+    "text": "State 'California' (Region: West): Sales = $457,687.63, Profit = $76,381.39 (margin 16.7%), Quantity = 7,667.",
+    "metadata": {
+      "State": "California",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 457687.63,
+      "profit_total": 76381.39,
+      "quantity_total": 7667,
+      "avg_discount": 7.2764,
+      "row_count": 2001
+    },
+    "chunk_id": "chunk_0081"
+  },
+  {
+    "text": "State 'Colorado' (Region: West): Sales = $32,108.12, Profit = $-6,527.86 (margin -20.3%), Quantity = 693.",
+    "metadata": {
+      "State": "Colorado",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 32108.12,
+      "profit_total": -6527.86,
+      "quantity_total": 693,
+      "avg_discount": 31.6484,
+      "row_count": 182
+    },
+    "chunk_id": "chunk_0082"
+  },
+  {
+    "text": "State 'Connecticut' (Region: East): Sales = $13,384.36, Profit = $3,511.49 (margin 26.2%), Quantity = 281.",
+    "metadata": {
+      "State": "Connecticut",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 13384.36,
+      "profit_total": 3511.49,
+      "quantity_total": 281,
+      "avg_discount": 0.7317,
+      "row_count": 82
+    },
+    "chunk_id": "chunk_0083"
+  },
+  {
+    "text": "State 'Delaware' (Region: East): Sales = $27,451.07, Profit = $9,977.37 (margin 36.3%), Quantity = 367.",
+    "metadata": {
+      "State": "Delaware",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 27451.07,
+      "profit_total": 9977.37,
+      "quantity_total": 367,
+      "avg_discount": 0.625,
+      "row_count": 96
+    },
+    "chunk_id": "chunk_0084"
+  },
+  {
+    "text": "State 'District of Columbia' (Region: East): Sales = $2,865.02, Profit = $1,059.59 (margin 37.0%), Quantity = 40.",
+    "metadata": {
+      "State": "District of Columbia",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 2865.02,
+      "profit_total": 1059.59,
+      "quantity_total": 40,
+      "avg_discount": 0.0,
+      "row_count": 10
+    },
+    "chunk_id": "chunk_0085"
+  },
+  {
+    "text": "State 'Florida' (Region: South): Sales = $89,473.71, Profit = $-3,399.30 (margin -3.8%), Quantity = 1,379.",
+    "metadata": {
+      "State": "Florida",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 89473.71,
+      "profit_total": -3399.3,
+      "quantity_total": 1379,
+      "avg_discount": 29.9347,
+      "row_count": 383
+    },
+    "chunk_id": "chunk_0086"
+  },
+  {
+    "text": "State 'Georgia' (Region: South): Sales = $49,095.84, Profit = $16,250.04 (margin 33.1%), Quantity = 705.",
+    "metadata": {
+      "State": "Georgia",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 49095.84,
+      "profit_total": 16250.04,
+      "quantity_total": 705,
+      "avg_discount": 0.0,
+      "row_count": 184
+    },
+    "chunk_id": "chunk_0087"
+  },
+  {
+    "text": "State 'Idaho' (Region: West): Sales = $4,382.49, Profit = $826.72 (margin 18.9%), Quantity = 64.",
+    "metadata": {
+      "State": "Idaho",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 4382.49,
+      "profit_total": 826.72,
+      "quantity_total": 64,
+      "avg_discount": 8.5714,
+      "row_count": 21
+    },
+    "chunk_id": "chunk_0088"
+  },
+  {
+    "text": "State 'Illinois' (Region: Central): Sales = $80,166.10, Profit = $-12,607.89 (margin -15.7%), Quantity = 1,845.",
+    "metadata": {
+      "State": "Illinois",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 80166.1,
+      "profit_total": -12607.89,
+      "quantity_total": 1845,
+      "avg_discount": 39.0041,
+      "row_count": 492
+    },
+    "chunk_id": "chunk_0089"
+  },
+  {
+    "text": "State 'Indiana' (Region: Central): Sales = $53,555.36, Profit = $18,382.94 (margin 34.3%), Quantity = 578.",
+    "metadata": {
+      "State": "Indiana",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 53555.36,
+      "profit_total": 18382.94,
+      "quantity_total": 578,
+      "avg_discount": 0.0,
+      "row_count": 149
+    },
+    "chunk_id": "chunk_0090"
+  },
+  {
+    "text": "State 'Iowa' (Region: Central): Sales = $4,579.76, Profit = $1,183.81 (margin 25.8%), Quantity = 112.",
+    "metadata": {
+      "State": "Iowa",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 4579.76,
+      "profit_total": 1183.81,
+      "quantity_total": 112,
+      "avg_discount": 0.0,
+      "row_count": 30
+    },
+    "chunk_id": "chunk_0091"
+  },
+  {
+    "text": "State 'Kansas' (Region: Central): Sales = $2,914.31, Profit = $836.44 (margin 28.7%), Quantity = 74.",
+    "metadata": {
+      "State": "Kansas",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 2914.31,
+      "profit_total": 836.44,
+      "quantity_total": 74,
+      "avg_discount": 0.0,
+      "row_count": 24
+    },
+    "chunk_id": "chunk_0092"
+  },
+  {
+    "text": "State 'Kentucky' (Region: South): Sales = $36,591.75, Profit = $11,199.70 (margin 30.6%), Quantity = 523.",
+    "metadata": {
+      "State": "Kentucky",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 36591.75,
+      "profit_total": 11199.7,
+      "quantity_total": 523,
+      "avg_discount": 0.0,
+      "row_count": 139
+    },
+    "chunk_id": "chunk_0093"
+  },
+  {
+    "text": "State 'Louisiana' (Region: South): Sales = $9,217.03, Profit = $2,196.10 (margin 23.8%), Quantity = 156.",
+    "metadata": {
+      "State": "Louisiana",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 9217.03,
+      "profit_total": 2196.1,
+      "quantity_total": 156,
+      "avg_discount": 0.0,
+      "row_count": 42
+    },
+    "chunk_id": "chunk_0094"
+  },
+  {
+    "text": "State 'Maine' (Region: East): Sales = $1,270.53, Profit = $454.49 (margin 35.8%), Quantity = 35.",
+    "metadata": {
+      "State": "Maine",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 1270.53,
+      "profit_total": 454.49,
+      "quantity_total": 35,
+      "avg_discount": 0.0,
+      "row_count": 8
+    },
+    "chunk_id": "chunk_0095"
+  },
+  {
+    "text": "State 'Maryland' (Region: East): Sales = $23,705.52, Profit = $7,031.18 (margin 29.7%), Quantity = 420.",
+    "metadata": {
+      "State": "Maryland",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 23705.52,
+      "profit_total": 7031.18,
+      "quantity_total": 420,
+      "avg_discount": 0.5714,
+      "row_count": 105
+    },
+    "chunk_id": "chunk_0096"
+  },
+  {
+    "text": "State 'Massachusetts' (Region: East): Sales = $28,634.43, Profit = $6,785.50 (margin 23.7%), Quantity = 491.",
+    "metadata": {
+      "State": "Massachusetts",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 28634.43,
+      "profit_total": 6785.5,
+      "quantity_total": 491,
+      "avg_discount": 1.5556,
+      "row_count": 135
+    },
+    "chunk_id": "chunk_0097"
+  },
+  {
+    "text": "State 'Michigan' (Region: Central): Sales = $76,269.61, Profit = $24,463.19 (margin 32.1%), Quantity = 946.",
+    "metadata": {
+      "State": "Michigan",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 76269.61,
+      "profit_total": 24463.19,
+      "quantity_total": 946,
+      "avg_discount": 0.7059,
+      "row_count": 255
+    },
+    "chunk_id": "chunk_0098"
+  },
+  {
+    "text": "State 'Minnesota' (Region: Central): Sales = $29,863.15, Profit = $10,823.19 (margin 36.2%), Quantity = 331.",
+    "metadata": {
+      "State": "Minnesota",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 29863.15,
+      "profit_total": 10823.19,
+      "quantity_total": 331,
+      "avg_discount": 0.0,
+      "row_count": 89
+    },
+    "chunk_id": "chunk_0099"
+  },
+  {
+    "text": "State 'Mississippi' (Region: South): Sales = $10,771.34, Profit = $3,172.98 (margin 29.5%), Quantity = 221.",
+    "metadata": {
+      "State": "Mississippi",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 10771.34,
+      "profit_total": 3172.98,
+      "quantity_total": 221,
+      "avg_discount": 0.0,
+      "row_count": 53
+    },
+    "chunk_id": "chunk_0100"
+  },
+  {
+    "text": "State 'Missouri' (Region: Central): Sales = $22,205.15, Profit = $6,436.21 (margin 29.0%), Quantity = 252.",
+    "metadata": {
+      "State": "Missouri",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 22205.15,
+      "profit_total": 6436.21,
+      "quantity_total": 252,
+      "avg_discount": 0.0,
+      "row_count": 66
+    },
+    "chunk_id": "chunk_0101"
+  },
+  {
+    "text": "State 'Montana' (Region: West): Sales = $5,589.35, Profit = $1,833.33 (margin 32.8%), Quantity = 56.",
+    "metadata": {
+      "State": "Montana",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 5589.35,
+      "profit_total": 1833.33,
+      "quantity_total": 56,
+      "avg_discount": 6.6667,
+      "row_count": 15
+    },
+    "chunk_id": "chunk_0102"
+  },
+  {
+    "text": "State 'Nebraska' (Region: Central): Sales = $7,464.93, Profit = $2,037.09 (margin 27.3%), Quantity = 136.",
+    "metadata": {
+      "State": "Nebraska",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 7464.93,
+      "profit_total": 2037.09,
+      "quantity_total": 136,
+      "avg_discount": 0.0,
+      "row_count": 38
+    },
+    "chunk_id": "chunk_0103"
+  },
+  {
+    "text": "State 'Nevada' (Region: West): Sales = $16,729.10, Profit = $3,316.77 (margin 19.8%), Quantity = 168.",
+    "metadata": {
+      "State": "Nevada",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 16729.1,
+      "profit_total": 3316.77,
+      "quantity_total": 168,
+      "avg_discount": 6.1538,
+      "row_count": 39
+    },
+    "chunk_id": "chunk_0104"
+  },
+  {
+    "text": "State 'New Hampshire' (Region: East): Sales = $7,292.52, Profit = $1,706.50 (margin 23.4%), Quantity = 127.",
+    "metadata": {
+      "State": "New Hampshire",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 7292.52,
+      "profit_total": 1706.5,
+      "quantity_total": 127,
+      "avg_discount": 1.1111,
+      "row_count": 27
+    },
+    "chunk_id": "chunk_0105"
+  },
+  {
+    "text": "State 'New Jersey' (Region: East): Sales = $35,764.31, Profit = $9,772.91 (margin 27.3%), Quantity = 454.",
+    "metadata": {
+      "State": "New Jersey",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 35764.31,
+      "profit_total": 9772.91,
+      "quantity_total": 454,
+      "avg_discount": 0.4615,
+      "row_count": 130
+    },
+    "chunk_id": "chunk_0106"
+  },
+  {
+    "text": "State 'New Mexico' (Region: West): Sales = $4,783.52, Profit = $1,157.12 (margin 24.2%), Quantity = 151.",
+    "metadata": {
+      "State": "New Mexico",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 4783.52,
+      "profit_total": 1157.12,
+      "quantity_total": 151,
+      "avg_discount": 5.9459,
+      "row_count": 37
+    },
+    "chunk_id": "chunk_0107"
+  },
+  {
+    "text": "State 'New York' (Region: East): Sales = $310,876.27, Profit = $74,038.55 (margin 23.8%), Quantity = 4,224.",
+    "metadata": {
+      "State": "New York",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 310876.27,
+      "profit_total": 74038.55,
+      "quantity_total": 4224,
+      "avg_discount": 5.5319,
+      "row_count": 1128
+    },
+    "chunk_id": "chunk_0108"
+  },
+  {
+    "text": "State 'North Carolina' (Region: South): Sales = $55,603.16, Profit = $-7,490.91 (margin -13.5%), Quantity = 983.",
+    "metadata": {
+      "State": "North Carolina",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 55603.16,
+      "profit_total": -7490.91,
+      "quantity_total": 983,
+      "avg_discount": 28.3534,
+      "row_count": 249
+    },
+    "chunk_id": "chunk_0109"
+  },
+  {
+    "text": "State 'North Dakota' (Region: Central): Sales = $919.91, Profit = $230.15 (margin 25.0%), Quantity = 30.",
+    "metadata": {
+      "State": "North Dakota",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 919.91,
+      "profit_total": 230.15,
+      "quantity_total": 30,
+      "avg_discount": 0.0,
+      "row_count": 7
+    },
+    "chunk_id": "chunk_0110"
+  },
+  {
+    "text": "State 'Ohio' (Region: East): Sales = $78,258.14, Profit = $-16,971.38 (margin -21.7%), Quantity = 1,759.",
+    "metadata": {
+      "State": "Ohio",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 78258.14,
+      "profit_total": -16971.38,
+      "quantity_total": 1759,
+      "avg_discount": 32.4947,
+      "row_count": 469
+    },
+    "chunk_id": "chunk_0111"
+  },
+  {
+    "text": "State 'Oklahoma' (Region: Central): Sales = $19,683.39, Profit = $4,853.96 (margin 24.7%), Quantity = 247.",
+    "metadata": {
+      "State": "Oklahoma",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 19683.39,
+      "profit_total": 4853.96,
+      "quantity_total": 247,
+      "avg_discount": 0.0,
+      "row_count": 66
+    },
+    "chunk_id": "chunk_0112"
+  },
+  {
+    "text": "State 'Oregon' (Region: West): Sales = $17,431.15, Profit = $-1,190.47 (margin -6.8%), Quantity = 499.",
+    "metadata": {
+      "State": "Oregon",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 17431.15,
+      "profit_total": -1190.47,
+      "quantity_total": 499,
+      "avg_discount": 28.871,
+      "row_count": 124
+    },
+    "chunk_id": "chunk_0113"
+  },
+  {
+    "text": "State 'Pennsylvania' (Region: East): Sales = $116,511.91, Profit = $-15,559.96 (margin -13.4%), Quantity = 2,153.",
+    "metadata": {
+      "State": "Pennsylvania",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 116511.91,
+      "profit_total": -15559.96,
+      "quantity_total": 2153,
+      "avg_discount": 32.862,
+      "row_count": 587
+    },
+    "chunk_id": "chunk_0114"
+  },
+  {
+    "text": "State 'Rhode Island' (Region: East): Sales = $22,627.96, Profit = $7,285.63 (margin 32.2%), Quantity = 199.",
+    "metadata": {
+      "State": "Rhode Island",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 22627.96,
+      "profit_total": 7285.63,
+      "quantity_total": 199,
+      "avg_discount": 2.1429,
+      "row_count": 56
+    },
+    "chunk_id": "chunk_0115"
+  },
+  {
+    "text": "State 'South Carolina' (Region: South): Sales = $8,481.71, Profit = $1,769.06 (margin 20.9%), Quantity = 172.",
+    "metadata": {
+      "State": "South Carolina",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 8481.71,
+      "profit_total": 1769.06,
+      "quantity_total": 172,
+      "avg_discount": 0.0,
+      "row_count": 42
+    },
+    "chunk_id": "chunk_0116"
+  },
+  {
+    "text": "State 'South Dakota' (Region: Central): Sales = $1,315.56, Profit = $394.83 (margin 30.0%), Quantity = 42.",
+    "metadata": {
+      "State": "South Dakota",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 1315.56,
+      "profit_total": 394.83,
+      "quantity_total": 42,
+      "avg_discount": 0.0,
+      "row_count": 12
+    },
+    "chunk_id": "chunk_0117"
+  },
+  {
+    "text": "State 'Tennessee' (Region: South): Sales = $30,661.87, Profit = $-5,341.69 (margin -17.4%), Quantity = 681.",
+    "metadata": {
+      "State": "Tennessee",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 30661.87,
+      "profit_total": -5341.69,
+      "quantity_total": 681,
+      "avg_discount": 29.1257,
+      "row_count": 183
+    },
+    "chunk_id": "chunk_0118"
+  },
+  {
+    "text": "State 'Texas' (Region: Central): Sales = $170,188.05, Profit = $-25,729.36 (margin -15.1%), Quantity = 3,724.",
+    "metadata": {
+      "State": "Texas",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 170188.05,
+      "profit_total": -25729.36,
+      "quantity_total": 3724,
+      "avg_discount": 37.0193,
+      "row_count": 985
+    },
+    "chunk_id": "chunk_0119"
+  },
+  {
+    "text": "State 'Utah' (Region: West): Sales = $11,220.06, Profit = $2,546.53 (margin 22.7%), Quantity = 219.",
+    "metadata": {
+      "State": "Utah",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 11220.06,
+      "profit_total": 2546.53,
+      "quantity_total": 219,
+      "avg_discount": 6.0377,
+      "row_count": 53
+    },
+    "chunk_id": "chunk_0120"
+  },
+  {
+    "text": "State 'Vermont' (Region: East): Sales = $8,929.37, Profit = $2,244.98 (margin 25.1%), Quantity = 50.",
+    "metadata": {
+      "State": "Vermont",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 8929.37,
+      "profit_total": 2244.98,
+      "quantity_total": 50,
+      "avg_discount": 0.0,
+      "row_count": 11
+    },
+    "chunk_id": "chunk_0121"
+  },
+  {
+    "text": "State 'Virginia' (Region: South): Sales = $70,636.72, Profit = $18,597.95 (margin 26.3%), Quantity = 893.",
+    "metadata": {
+      "State": "Virginia",
+      "Region": "South",
+      "granularity": "state",
+      "sales_total": 70636.72,
+      "profit_total": 18597.95,
+      "quantity_total": 893,
+      "avg_discount": 0.0,
+      "row_count": 224
+    },
+    "chunk_id": "chunk_0122"
+  },
+  {
+    "text": "State 'Washington' (Region: West): Sales = $138,641.27, Profit = $33,402.65 (margin 24.1%), Quantity = 1,883.",
+    "metadata": {
+      "State": "Washington",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 138641.27,
+      "profit_total": 33402.65,
+      "quantity_total": 1883,
+      "avg_discount": 6.4032,
+      "row_count": 506
+    },
+    "chunk_id": "chunk_0123"
+  },
+  {
+    "text": "State 'West Virginia' (Region: East): Sales = $1,209.82, Profit = $185.92 (margin 15.4%), Quantity = 18.",
+    "metadata": {
+      "State": "West Virginia",
+      "Region": "East",
+      "granularity": "state",
+      "sales_total": 1209.82,
+      "profit_total": 185.92,
+      "quantity_total": 18,
+      "avg_discount": 7.5,
+      "row_count": 4
+    },
+    "chunk_id": "chunk_0124"
+  },
+  {
+    "text": "State 'Wisconsin' (Region: Central): Sales = $32,114.61, Profit = $8,401.80 (margin 26.2%), Quantity = 463.",
+    "metadata": {
+      "State": "Wisconsin",
+      "Region": "Central",
+      "granularity": "state",
+      "sales_total": 32114.61,
+      "profit_total": 8401.8,
+      "quantity_total": 463,
+      "avg_discount": 0.0,
+      "row_count": 110
+    },
+    "chunk_id": "chunk_0125"
+  },
+  {
+    "text": "State 'Wyoming' (Region: West): Sales = $1,603.14, Profit = $100.20 (margin 6.2%), Quantity = 4.",
+    "metadata": {
+      "State": "Wyoming",
+      "Region": "West",
+      "granularity": "state",
+      "sales_total": 1603.14,
+      "profit_total": 100.2,
+      "quantity_total": 4,
+      "avg_discount": 20.0,
+      "row_count": 1
+    },
+    "chunk_id": "chunk_0126"
+  },
+  {
+    "text": "Orders with discount bracket 'No discount': Sales = $1,087,908.47, Profit = $320,987.60, Quantity = 18,267, Number of orders = 4798.",
+    "metadata": {
+      "granularity": "discount_impact",
+      "discount_bracket": "iscoNo dunt",
+      "sales_total": 1087908.47,
+      "profit_total": 320987.6
+    },
+    "chunk_id": "chunk_0127"
+  }
+]
