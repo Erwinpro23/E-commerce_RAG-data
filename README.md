@@ -18,9 +18,8 @@ An AI-powered **Retrieval-Augmented Generation (RAG)** system for e-commerce ana
 ```
 RAG(e-commerce)/
 ├── src/                        # Core source modules
-│   ├── __init__.py
 │   ├── retriever.py            # FAISS retrieval + fairness-aware reranking
-│   └── rag_llm.py              # Gemini LLM integration & prompt engineering
+│   └── RAG_model.py              # Gemini LLM integration & prompt engineering
 ├── data/
 │   ├── raw/
 │   │   └── SampleSuperstore.csv    # Original dataset
