@@ -53,8 +53,7 @@ pip install -r requirements.txt
 ### 2. Set up environment variables
 
 ```bash
-cp .env.example .env
-# Edit .env and add your GOOGLE_API_KEY
+# Create .env and add your GOOGLE_API_KEY
 ```
 
 ### 3. Generate the FAISS index
