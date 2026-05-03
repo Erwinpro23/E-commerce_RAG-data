@@ -1757,13 +1757,53 @@
     "chunk_id": "chunk_0126"
   },
   {
-    "text": "Orders with discount bracket 'No discount': Sales = $1,087,908.47, Profit = $320,987.60, Quantity = 18,267, Number of orders = 4798.",
+    "text": "Orders with discount bracket '(-0.08, 16.0]': Sales = $1,169,836.34, Profit = $331,435.77, Quantity = 18,838, Number of orders = 4944.",
     "metadata": {
       "granularity": "discount_impact",
-      "discount_bracket": "iscoNo dunt",
-      "sales_total": 1087908.47,
-      "profit_total": 320987.6
+      "discount_bracket": "(-0.08, 16.0]",
+      "sales_total": 1169836.34,
+      "profit_total": 331435.77
     },
     "chunk_id": "chunk_0127"
+  },
+  {
+    "text": "Orders with discount bracket '(16.0, 32.0]': Sales = $882,314.48, Profit = $77,576.89, Quantity = 14,614, Number of orders = 3911.",
+    "metadata": {
+      "granularity": "discount_impact",
+      "discount_bracket": "(16.0, 32.0]",
+      "sales_total": 882314.48,
+      "profit_total": 77576.89
+    },
+    "chunk_id": "chunk_0128"
+  },
+  {
+    "text": "Orders with discount bracket '(32.0, 48.0]': Sales = $121,902.76, Profit = $-25,550.16, Quantity = 831, Number of orders = 217.",
+    "metadata": {
+      "granularity": "discount_impact",
+      "discount_bracket": "(32.0, 48.0]",
+      "sales_total": 121902.76,
+      "profit_total": -25550.16
+    },
+    "chunk_id": "chunk_0129"
+  },
+  {
+    "text": "Orders with discount bracket '(48.0, 64.0]': Sales = $65,563.24, Profit = $-26,451.08, Quantity = 742, Number of orders = 204.",
+    "metadata": {
+      "granularity": "discount_impact",
+      "discount_bracket": "(48.0, 64.0]",
+      "sales_total": 65563.24,
+      "profit_total": -26451.08
+    },
+    "chunk_id": "chunk_0130"
+  },
+  {
+    "text": "Orders with discount bracket '(64.0, 80.0]': Sales = $57,584.04, Profit = $-70,614.40, Quantity = 2,848, Number of orders = 718.",
+    "metadata": {
+      "granularity": "discount_impact",
+      "discount_bracket": "(64.0, 80.0]",
+      "sales_total": 57584.04,
+      "profit_total": -70614.4
+    },
+    "chunk_id": "chunk_0131"
   }
 ]

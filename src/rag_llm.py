@@ -1,15 +1,17 @@
 import os
 from typing import List, Dict, Any
-from retriever import RAGRetriever
-
+from src.retriever import RAGRetriever
+from dotenv import load_dotenv
 # Load environment variables from .env file
-try:
-    from dotenv import load_dotenv
-    load_dotenv()
-    print("✅ Loaded environment variables from .env")
-except ImportError:
-    print("⚠️  python-dotenv not installed. Install with: pip install python-dotenv")
-    print("   Or set environment variables manually")
+load_dotenv()
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+print("✅ Loaded environment variables from .env")
+
+if not GOOGLE_API_KEY:
+        raise ValueError(
+            "GOOGLE_API_KEY not found. Check your .env file or environment variables."
+        )
+
 
 class RAGWithLLM:
     """
@@ -34,9 +36,9 @@ class RAGWithLLM:
         """Initialize Google Gemini client."""
         try:
             import google.generativeai as genai
-            genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
+            genai.configure(api_key=GOOGLE_API_KEY)
             self.client = genai.GenerativeModel(self.model_name)
-            print(f"✅ Google Gemini initialized: {self.model_name}")
+            print(f"Google Gemini initialized: {self.model_name}")
         except ImportError as e:
             raise ImportError(f"Missing required package for Google Gemini: {e}")
         except Exception as e:

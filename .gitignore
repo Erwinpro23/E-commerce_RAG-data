@@ -1,17 +1,31 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
 .env
 *.pem
 *.key
+
+# ── Processed / binary data (regenerate with model.ipynb) ────────────────────
+data/processed/
 *.bin
 *.pkl
 *.index
-faiss_index.bin
-metadata.pkl
+
+# ── Python ───────────────────────────────────────────────────────────────────
 __pycache__/
+*.py[cod]
 *$py.class
-.venv
+*.pyc
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
 venv/
 env/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
 .cursor/
 .antigravity/
-.idea/
-.vscode/
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

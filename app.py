@@ -5,14 +5,11 @@ from dotenv import load_dotenv
 # ─── Page config ─────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="E-Commerce RAG Analytics",
-    page_icon="🛒",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
-
 load_dotenv()
-
-# ─── CSS ─────────────────────────────────────────────────────────────────────
+# ─── CSS ────────────────────────────────────────────────────────────────────  ─
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -131,31 +128,29 @@ if "messages" not in st.session_state:
 # ─── Load RAG (cached) ────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner=False)
 def load_rag():
-    from retriever import RAGRetriever
-    from rag_llm import RAGWithLLM
+    from src.retriever import RAGRetriever
+    from src.rag_llm import RAGWithLLM
     retriever = RAGRetriever(
-        faiss_index_path="faiss_index.bin",
-        metadata_path="metadata.pkl",
+        faiss_index_path="data/processed/faiss_index.bin",
+        metadata_path="data/processed/metadata.pkl",
         model_name="all-MiniLM-L6-v2",
     )
-    return RAGWithLLM(retriever=retriever, model_name="your_model")
 
 # ─── Title ───────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="title-wrap">
   <h1>🛒 E-Commerce RAG Analytics</h1>
-  <p>Hỏi bất cứ điều gì về dữ liệu bán hàng — AI sẽ tìm và phân tích cho bạn</p>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("---")
 
 # ─── Load system ─────────────────────────────────────────────────────────────
-with st.spinner("⏳ Đang tải hệ thống..."):
+with st.spinner("Loading system Please waiting for a few minitues ..."):
     try:
         rag = load_rag()
     except Exception as e:
-        st.error(f"❌ Không thể tải RAG system: {e}")
+        st.error(f"Can not load the RAG system {e}")
         st.stop()
 
 # ─── Chat history ─────────────────────────────────────────────────────────────
@@ -168,7 +163,7 @@ for msg in st.session_state.messages:
     else:
         st.markdown(
             f'<div class="msg-bot">'
-            f'<div class="avatar">🤖</div>'
+            f'<div class="avatar"></div>'
             f'<div class="bubble">{msg["content"]}</div>'
             f'</div>',
             unsafe_allow_html=True,
@@ -181,23 +176,22 @@ with st.form(key="chat_form", clear_on_submit=True):
     with col_input:
         user_input = st.text_input(
             "query",
-            placeholder="Nhập câu hỏi của bạn... VD: Danh mục nào có lợi nhuận cao nhất?",
             label_visibility="collapsed",
         )
     with col_btn:
-        submitted = st.form_submit_button("Gửi ➤", use_container_width=True)
+        submitted = st.form_submit_button("Gửi", use_container_width=True)
 
 # ─── Process query ────────────────────────────────────────────────────────────
 if submitted and user_input.strip():
     query = user_input.strip()
     st.session_state.messages.append({"role": "user", "content": query})
 
-    with st.spinner("🔍 Đang phân tích..."):
+    with st.spinner(" Đang phân tích..."):
         try:
             result = rag.query(query, top_k=5, use_fairness=True)
             answer = result["answer"]
         except Exception as e:
-            answer = f"⚠️ Lỗi: {e}"
+            answer = f"Lỗi: {e}"
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
     st.rerun()
