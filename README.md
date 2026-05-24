@@ -83,7 +83,7 @@ Open [http://localhost:8501](http://localhost:8501) and start asking questions! 
 |---|---|
 | Embedding model | `all-MiniLM-L6-v2` (Sentence Transformers) |
 | Vector store | FAISS |
-| LLM | Google Gemini 2.5 Flash |
+| LLM | Google API |
 | Frontend | Streamlit |
 | Data | Superstore Sales Dataset |
 
