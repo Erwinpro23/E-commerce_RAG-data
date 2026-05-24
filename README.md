@@ -73,7 +73,7 @@ Open [http://localhost:8501](http://localhost:8501) and start asking questions! 
 
 | Variable | Description |
 |---|---|
-| `GOOGLE_API_KEY` | Google AI Studio API key for Gemini |
+| `GOOGLE_API_KEY` | Google AI API |
 
 ---
 
